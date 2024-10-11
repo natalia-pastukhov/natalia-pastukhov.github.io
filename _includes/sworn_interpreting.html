@@ -1,0 +1,33 @@
+<section id="interpreting_sworm">
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-md-12 text-center section-header">
+                <h2>{{site.sworn_title[lang]}}</h2>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="container">
+        <div class="row" style="padding-top: 1em;">
+            <div class="col-md-12">
+                {% assign the_jobs = site.data.interpreting | where: "type", {{int_group.type}} %}
+                {% for the_job in the_jobs %}
+        
+                    <div class="row">
+                        <div class="col-md-3" align='center'>
+                            {% for lang in the_job.languages %}
+                                <img class="img-responsive center-block col-md2" src="img/{{lang}}.png" style="padding-top: 0.5em;">
+                            {% endfor %}
+                            <p>{{ the_job.date }}  </p>
+                        </div>
+                        <div class="col-md-9">
+                            {% assign description = the_job.description[lang] %}
+                            <p>{{the_job.description[lang]}}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

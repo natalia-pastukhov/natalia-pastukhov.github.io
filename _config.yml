@@ -1,0 +1,70 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Natalia Pastukhov
+email: natalia.pastukhov@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Freiberufliche Dolmetscherin und Übersetzerin.
+  Deutsch-Russisch, Deutsch-Englisch und Russisch-Englisch.
+  Beeidigt für das Bundesland Sachsen-Anhalt.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://natalia-pastukhov.de" # the base hostname & protocol for your site
+
+# Social media profiles - feel free to add more here
+#twitter_username: SBootstrap
+# github_username:  alexander-pastukhov
+#facebook_username: StartBootstrap
+instagram_username: translator.bamberg
+#stackoverflow_url: https://
+#googleplus_username: BobMarley
+#skype_username: echo123
+# linkedin_url: https://www.linkedin.com/in/alexander-sasha-pastukhov-3722b05/
+
+# Personal info
+name:
+  de: Natalia Pastukhov
+  en: Natalia Pastukhov
+  ru: Наталья Пастухов
+
+# Website translations
+sworn:
+  title:
+    de: Vereidigtes Dolmetschen und Übersetzen
+    en: Sworn Interpretation and translation
+    ru: Присяжные переводы
+  text:
+    de: >
+      Seit 2011 bin ich als Dolmetscherin und Übersetzerin für das Sprachpaar Deutsch-Russisch beeidigt, seit 2016 auch für Deutsch-Englisch sowie für Russisch-Englisch. Ich leistete zahlreiche Verdolmetschungen und Übersetzungen für folgende Behörden
+
+description:
+  whoami:
+    ru: >
+      Профессиональный переводчик с большим стажем работы быстро и качественно переведёт любые документы и тексты. Бюро в Бамберге. Простые и заверенные переводы, индивидуальный подход к заказчику. Высылаю почтой по Баварии и по всей Германии. Срочные переводы с печатью – курьерской почтой (DHL).
+    de: >
+      Professionelle Übersetzerin mit vielen Erfahrungen übersetzt schnell und fehlerfrei jegliche Dokumente und Zeugnisse. Sitz in Bamberg. Einfache und beglaubigte Übersetzungen, individueller Vorgang zu jedem Kunden.  Versand in alle Ecken Bayerns sowie Deutschlands. Schnelle beglaubigte Übersetzungen mit Stempel – mit Express-Post (DHL) auch ins Ausland.
+    en: >
+      Professional translator with many years of experience. Fast high-quality translation of documents and texts. Certified translation, individual approach to every customer. Documents can be sent by mail in Bavaria and Germany. High-priority translations via express mail service (DHL).
+
+education:
+  ru: Высшее образование
+  de: Hochschulbildung
+  en: University degrees
+
+
+# Address information
+address_street: Gumboldsleite 6
+address_city: Bamberg
+address_state: Bayern
+address_country: Deutschland
+address_zip: 96049
+
+# Build settings
+markdown: kramdown
+sass:
+    style: compressed
+    sass_dir: _sass

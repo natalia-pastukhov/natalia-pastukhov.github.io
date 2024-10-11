@@ -1,0 +1,20 @@
+- type: simultaneous
+  title:
+    de: Simultandolmetschen
+    en: Simultaneous Interpreter at Conferences
+    ru: Синхронные переводы на конференциях
+  short_title:
+    de: Simultan
+    en: Simultaneous
+    ru: Синхрон
+
+
+- type: consecutive
+  title:
+    de: Konsekutivdolmetschen
+    en: Consecutive Interpreting at Conferences
+    ru: Последовательные переводы на конференциях
+  short_title:
+    de: Konsekutiv
+    en: Consecutive
+    ru: Последовательный

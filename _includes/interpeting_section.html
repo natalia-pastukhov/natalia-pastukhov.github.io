@@ -1,0 +1,26 @@
+<div class="fluid-container">
+    <div class="row">
+        <div class="col-md-12 text-center section-header">
+            <h2>{{interpreting_header}}</h2>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row" style="padding-top: 1em;">
+        <div class="col-md-12">
+            {% for the_job in interpreting_jobs  %}
+                <div class="row">
+                    <div class="col-md-3" align='center'>
+                        {% for lang in the_job.languages %}
+                            <img class="img-responsive center-block col-md2" src="img/{{lang}}.png">
+                        {% endfor %}
+                        <p>{{ the_job.date }}</p>
+                    </div>
+                    <div class="col-md-9">
+                        <p>{{the_job.description}}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
